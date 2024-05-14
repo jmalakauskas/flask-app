@@ -1,0 +1,46 @@
+Additional CI/CD tools:
+
+1. Bamboo by Atlassian
+Key Features:
+- Integration with Atlassian Suite (Jira, Bitbucket, Confluence).
+- Build Automation (Automates the process of building, testing, and releasing code).
+- Deployment automation in different environemnts (development, testing, production).
+- Integration with Bitbucket.
+- Built-in support for Docker, AWS, and other tools.
+- Customization and functionality extension through plugins.
+
+Pros:
+- Integration with Atlassian Products
+- Support of complex build and deployment workflows
+- Automation of end-to-end CI/CD processes
+- Scalability
+- Detailed analytics and insights into build and deployment processes.
+- User-Friendly Interface
+
+Cons:
+- High cost
+- Resource intensive
+- Steep learning curve
+- Not as many plugins as in other tools like Jenkins
+
+2. AWS CodePipeline
+KeyFeatures:
+- Integration with AWS Services
+- Customizable Workflow
+- Source Control Integration (Integration with various source control systems like AWS CodeCommit, GitHub, Bitbucket)
+- Artifact Management
+- Monitoring and Notifications
+
+Pros:
+- Seamless AWS Integration
+- Ease of Use
+- Pay-as-you-go pricing
+- Scalability
+- Automation and Efficiency
+
+Cons:
+- Dependence on AWS Ecosystem
+- Complex for Non-AWS Users
+- Limited Advanced Features
+- Vendor Lock-In
+
