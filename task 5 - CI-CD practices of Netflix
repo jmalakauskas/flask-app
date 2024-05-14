@@ -1,0 +1,16 @@
+
+Netflix employs a microservices architecture. 
+This architecture enables independent deployment and testing of services, aligning well with CI/CD principles.
+
+Netflix utilizes Jenkins for CI. 
+Developers push code changes frequently to a central repository, triggering automated builds and tests.
+
+Netflix practices continuous deployment, where validated changes are automatically deployed to production.
+Canary deployments are used to mitigate risks associated with deploying changes to production.
+
+Netflix pioneered Chaos Engineering
+It is a practice of intentionally introducing failures into systems to identify weaknesses and improve resilience. 
+Chaos Monkey, one of Netflix's tools, randomly terminates production instances to simulate failures and ensure that the system can gracefully handle disruptions.
+
+Netflix emphasizes monitoring and observability to gain insights into system health and performance.
+Automated alerts and dashboards provide real-time visibility into the status of applications and infrastructure, enabling rapid response to incidents.
