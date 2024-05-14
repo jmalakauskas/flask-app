@@ -1,0 +1,21 @@
+1. Blue/Green Deployments
+
+Blue/Green deployments involve running two identical production environments, termed "blue" and "green". 
+At any time, only one environment (e.g., blue) serves live traffic, while the other (green) remains idle or is used for staging the next release. 
+When a new version of the application is ready, it is deployed to the idle environment (green). 
+Once verified, the traffic is switched from the blue environment to the green environment.
+
+Blue/Green deployments are optimal for critical applications where downtime must be minimized and quick rollback capabilities are essential.
+
+2. Canary Deployments
+Canary deployments introduce new features to a small subset of users before rolling them out to the entire user base. 
+This strategy involves gradually shifting traffic from the old version to the new version, monitoring performance and user feedback at each stage.
+
+Canary deployments are ideal for consumer-facing applications where user feedback and performance metrics are crucial for success. 
+
+3. Rolling deployments
+
+Rolling deployments update instances of an application incrementally across the environment. 
+Instead of updating all instances simultaneously, the deployment process updates a few instances at a time, ensuring that some instances are always available to handle requests.
+
+Rolling deployments are suitable for microservices-based architectures and cloud-native applications where maintaining continuous availability is critical, and resource efficiency is a priority. 
