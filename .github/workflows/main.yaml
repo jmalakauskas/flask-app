@@ -38,7 +38,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v6
         name: Build & push Docker image
         with:
-          image: repo/image
+          image: codeacademy/my-image
           tags: v1, latest
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
@@ -51,6 +51,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
       - name: Pull Docker image
-        run: docker pull repo/image:v1
+        run: docker pull codeacademy/my-image:v1
       - name: Run tests on Docker image
-        run: docker run --rm repo/image:v1 echo "Testing Docker image build"
+        run: docker run --rm codeacademy/my-image:v1 echo "Testing Docker image build"
