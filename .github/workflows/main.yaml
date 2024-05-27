@@ -51,6 +51,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
       - name: Pull Docker image
-        run: docker pull codeacademy/my-image:v1
+        run: docker pull jmalakauskas/codeacademy:latest
       - name: Run tests on Docker image
         run: docker run --rm codeacademy/my-image:v1 echo "Testing Docker image build"
