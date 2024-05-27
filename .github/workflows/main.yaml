@@ -49,4 +49,4 @@ jobs:
     needs: docker
     steps:
       - name: Run tests on Docker image
-        run: docker run --rm malakauskas/codeacademy:latest echo "Testing Docker image build"
+        run: docker run --rm jmalakauskas/codeacademy:latest echo "Testing Docker image build"
